@@ -14,21 +14,6 @@ FletとSpotipyを使用しており、Spotifyのプレイリスト内容を取�
 ```bash
 pip install flet spotipy
 ```
-
-## 環境変数の設定
-
-Spotify APIの認証情報を環境変数で設定してください。
-
-- `SPOTIPY_CLIENT_ID`
-- `SPOTIPY_CLIENT_SECRET`
-
-例（Windowsコマンドプロンプト）:
-
-```cmd
-set SPOTIPY_CLIENT_ID=あなたのクライアントID
-set SPOTIPY_CLIENT_SECRET=あなたのクライアントシークレット
-```
-
 ## 使い方
 
 1. アプリを起動します。
@@ -62,20 +47,6 @@ Built with Flet and Spotipy, it currently supports fetching playlist contents fr
 
 ```bash
 pip install flet spotipy
-```
-
-## Setting Environment Variables
-
-Set your Spotify API credentials as environment variables:
-
-- `SPOTIPY_CLIENT_ID`
-- `SPOTIPY_CLIENT_SECRET`
-
-Example (Windows Command Prompt):
-
-```cmd
-set SPOTIPY_CLIENT_ID=your_client_id
-set SPOTIPY_CLIENT_SECRET=your_client_secret
 ```
 
 ## Usage
